@@ -1,0 +1,18 @@
+[
+  {
+    "Id":"1",
+    "Name":"测试reredis1",
+    "Host":"127.0.0.1",
+    "Port":"6379",
+    "Password":"",
+    "Version":"3.0.4"
+  },
+  {
+    "Id":"2",
+    "Name":"测试reredis2",
+    "Host":"127.0.0.1",
+    "Port":"8379",
+    "Password":"",
+    "Version":"3.0.4"
+  }
+]

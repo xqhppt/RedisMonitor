@@ -1,0 +1,47 @@
+{% extends "index.html" %}
+{% block body %}
+<div class="row">
+    <div class="col-lg-12">
+        <h1 class="page-header">Redis监控</h1>
+    </div>
+</div>
+<div class="row">
+    <div class="col-lg-12">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                实例列表
+            </div>
+            <!-- /.panel-heading -->
+            <div class="panel-body">
+                <div class="table-responsive">
+                    <table class="table table-hover">
+                        <thead>
+                            <tr>
+                                <th>#</th>
+                                <th title="描述">Name</th>
+                                <th title="地址">Host</th>
+                                <th title="端口">Port</th>
+                                <th title="版本">Version</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            {% for item in redisList %}
+                            <tr>
+                                <td>{{ item.Id }}</td>
+                                <td>{{ item.Name }}</td>
+                                <td><a href="{{ url_for('redisDetail',server=item.Host+":"+item.Port) }}">{{ item.Host }}</a></td>
+                                <td>{{ item.Port }}</td>
+                                <td>{{ item.Version }}</td>
+                            </tr>
+                            {% endfor %}
+                        </tbody>
+                    </table>
+                </div>
+                <!-- /.table-responsive -->
+            </div>
+            <!-- /.panel-body -->
+        </div>
+        <!-- /.panel -->
+    </div>
+</div>
+{% endblock %}

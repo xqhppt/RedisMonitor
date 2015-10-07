@@ -1,0 +1,39 @@
+K 26
+svn:wc:ra_dav:activity-url
+V 24
+/svn/Top.Chart/!svn/act/
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/Top.Chart/!svn/ver/76/trunk/Monitor/RedisMonitor/templates
+END
+redisIndex.html
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/Top.Chart/!svn/ver/75/trunk/Monitor/RedisMonitor/templates/redisIndex.html
+END
+dashboard.html
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/Top.Chart/!svn/ver/75/trunk/Monitor/RedisMonitor/templates/dashboard.html
+END
+index.html
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/Top.Chart/!svn/ver/75/trunk/Monitor/RedisMonitor/templates/index.html
+END
+error.html
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/Top.Chart/!svn/ver/60/trunk/Monitor/RedisMonitor/templates/error.html
+END
+redisDetail.html
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/Top.Chart/!svn/ver/75/trunk/Monitor/RedisMonitor/templates/redisDetail.html
+END
